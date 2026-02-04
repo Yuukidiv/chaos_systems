@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Interactive 3D visualization of strange attractors and chaotic systems including Lorenz, Thomas, Dadras, and more." />
+  <title>Strange Attractors | Chaos Visualization</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <!-- KaTeX for LaTeX rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <canvas id="canvas"></canvas>
+    <div id="info-panel">
+      <h1>Strange Attractors</h1>
+      <p id="attractor-description"></p>
+    </div>
+    <div id="equation-panel">
+      <h2>Equations</h2>
+      <div id="equation-content"></div>
+    </div>
+    <div id="stats">
+      <span id="fps">60 FPS</span>
+      <span id="particles-count">0 particles</span>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
