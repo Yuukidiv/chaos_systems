@@ -96,6 +96,3 @@ npm run preview
 
 MIT License - feel free to use this project for learning and experimentation.
 
----
-
-Made with ❤️ for chaos theory enthusiasts
