@@ -1,4 +1,4 @@
-# 🌀 Strange Attractors
+# Strange Attractors
 
 Interactive 3D visualization of chaotic systems and strange attractors using Three.js.
 
@@ -6,7 +6,7 @@ Interactive 3D visualization of chaotic systems and strange attractors using Thr
 ![Three.js](https://img.shields.io/badge/Three.js-black?logo=three.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
 
-## ✨ Features
+## Features
 
 - **8 Strange Attractors**: Lorenz, Thomas, Dadras, Rössler, Aizawa, Chen, Halvorsen, Sprott
 - **Real-time 3D Rendering**: GPU-accelerated particle system with trails
@@ -31,7 +31,7 @@ strange-attractors/
     └── vite-env.d.ts    # Type declarations
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -52,7 +52,7 @@ npm install
 npm run dev
 ```
 
-Open **http://localhost:5173** in your browser.
+Open **http://localhost:xxxx** in your browser.
 
 ### Production Build
 
@@ -61,7 +61,7 @@ npm run build
 npm run preview
 ```
 
-## 🎮 Controls
+## Controls
 
 | Action | Control |
 |--------|---------|
@@ -71,7 +71,7 @@ npm run preview
 | Select attractor | Type dropdown |
 | Adjust parameters | Sliders |
 
-## 🔬 Attractors
+## Attractors
 
 | Attractor | Year | Description |
 |-----------|------|-------------|
@@ -84,7 +84,7 @@ npm run preview
 | **Halvorsen** | - | Three intertwined spirals |
 | **Sprott** | 1994 | Auto-discovered minimal system |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **[Three.js](https://threejs.org/)** - 3D rendering and WebGL
 - **[Vite](https://vitejs.dev/)** - Fast development server and bundler
