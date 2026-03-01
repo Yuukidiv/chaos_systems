@@ -42,7 +42,7 @@ strange-attractors/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone <repo url>
 cd strange-attractors
 
 # Install dependencies
